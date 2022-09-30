@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.TFF }}
+        token: ${{ secrets.TERRAFORM_FORMAT }}
 
     - name: terraform fmt
       uses: dflook/terraform-fmt@v1.25.1

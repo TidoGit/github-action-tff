@@ -1,14 +1,14 @@
 # Steps to make this work
 
-* [] Create a repo
-* [] Create a PAT. Profile -> Developer Settings -> Personal Access Token
-  * Generate a new token
-  * Call it what ever
-  * Give it Repo Access
-  * Save the "ghp_foo" for later
-* [] Repo -> Settings -> Secrets -> Actions -> New Repository Secret
-  * Name it what ever
-  * Add the "ghp_foo" from the PAT as secret content
+  * - [ ] Create a repo
+  * - [ ] Create a PAT. Profile -> Developer Settings -> Personal Access Token
+    * - [ ] Generate a new token
+    * - [ ]  Call it what ever
+    * - [ ]  Give it Repo Access
+    * - [ ]  Save the "ghp_foo" for later
+* - [ ] Repo -> Settings -> Secrets -> Actions -> New Repository Secret
+  * - [ ] Name it what ever
+  * - [ ]  Add the "ghp_foo" from the PAT as secret content
 
 # Checking the output
 

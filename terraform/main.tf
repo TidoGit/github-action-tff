@@ -10,7 +10,7 @@ google = {
 }
 
 resource "null_resource" "example" {
-  triggers = {
+triggers = {
     value = "A example resource that does nothing!"
-  }
+}
 }
