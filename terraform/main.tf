@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-google = {
-    source  = "hashicorp/google"
-    version = "~> 4.37.0"
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 4.37.0"
     }
   }
 
@@ -10,7 +10,7 @@ google = {
 }
 
 resource "null_resource" "example" {
-triggers = {
+  triggers = {
     value = "A example resource that does nothing!"
-}
+  }
 }
